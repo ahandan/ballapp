@@ -7,7 +7,7 @@ import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 import '../style/leaflet_ball.css'
 import basket_terrains from '../data/basket_terrains.json'
 import Basket1 from '../logo/Basket1.svg'
-import user from '../logo/user_map_dot.png'
+import user from '../logo/user_map_dot.svg'
 // import ReactLeafletSearch from "react-leaflet-search";
 
 
@@ -38,6 +38,7 @@ export default class LeafletMap extends Component {
       iconRetinaUrl: Basket1,
       iconUrl: marker,
       shadowUrl: markerShadow,
+      // iconSize:'auto'
       // iconSize: [18, 18],
       // iconAnchor: [20, 20]
     });
